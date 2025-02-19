@@ -19,17 +19,17 @@
 		<input type="text" id="address" name="address" required>
 		<br><br>
 		<label for="checkbox">Have you ever lived with a Dog before?</label>
-		<input type="checkbox" id="checkbox" required>
+		<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?" required>
 		<br><br>
 		 <label for="preferredBreeds">Please select your preferred breeds:</label>
 		<br>
-        <select name="preferredBreeds[]" id="preferredBreeds" multiple>
-            <option value="labrador">Labrador Retriever</option>
-            <option value="german_shepherd">German Shepherd</option>
-            <option value="golden_retriever">Golden Retriever</option>
-            <option value="bulldog">Bulldog</option>
-            <option value="poodle">Poodle</option>
-        </select>
+       <select name="preferredBreeds[]" id="multiSelect" multiple>
+    <option value="labrador">Labrador Retriever</option>
+    <option value="german_shepherd">German Shepherd</option>
+    <option value="golden_retriever">Golden Retriever</option>
+    <option value="bulldog">Bulldog</option>
+    <option value="poodle">Poodle</option>
+</select>
         <br><br>
 		<button type="submit">Submit</button>
 	</form>
