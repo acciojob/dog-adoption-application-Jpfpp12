@@ -5,7 +5,12 @@
 	border:2px solid grey;
 	border-radius:20px;
 	padding:5px;
-	
 	margin:5px;
-	font-family
+	font-family:"Calibri","sans-serif"
+}
+.btn:hover{
+	background-color:black;
+	color:white;
+	border:3px dashed yellow;
+	
 }
